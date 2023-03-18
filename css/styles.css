@@ -1,0 +1,203 @@
+:root {
+--color-iris: #4d5ae5;
+--title-color-navy-blue: #2E2F42;
+--color-white: #ffffff;
+--color-ocean: #404BBF;
+--text-color-slate: #434455;
+--color-cloud: #F4F4FD;
+}
+body {
+font-family: 'Roboto', sans-serif;
+color: #434455; 
+font-weight: 500;
+background-color:#ffffff;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+
+/* ==========Components =========*/ 
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+text-transform: uppercase;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--color-iris);
+}
+
+.logo-span {
+
+    color: #2E2F42;
+}
+/* ==========/Components =========*/
+/* ========== Header =========*/
+.menu-link {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--title-color-navy-blue);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: var(--color-ocean);
+}
+
+.page-address {
+font-style: normal;
+}
+
+.contact-info {
+font-weight: 400;
+color: var(--text-color-slate);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+ color: var(--color-ocean);
+}
+
+/* ========== /Header =========*/
+/* ========== Hero =========*/
+.hero {
+    background-color: #2e2f42;
+}
+
+.main-title {
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--color-white);
+}
+
+.modal-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+color: var(--color-white);
+background: var(--color-iris);
+}
+
+.modal-btn:hover, .modal-btn:focus {
+background-color: #404BBF;
+}
+/* ========== /Hero =========*/
+
+/* ========== Solutions =========*/
+
+.name-decisions {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color-navy-blue);
+}
+.description-solutions {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/* ========== /Solutions =========*/
+
+/* ========== Our-solutions =========*/
+.work-options {
+font-weight: 500;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--title-color-navy-blue);
+}
+/* ========== /Our-solutions =========*/
+
+/* ========== Our-team =========*/
+.our-team {
+background-color: var(--color-cloud);
+}
+
+.team {
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--title-color-navy-blue);
+}
+.team-description {
+background-color: var(--color-white);
+}
+.name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color-navy-blue);
+}
+.profession {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/* ========== /Our-team =========*/
+
+/* ========== Page-footer=========*/
+.page-footer {
+background-color: #2e2f42;
+}
+
+.goal {
+font-size: 16px; 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-cloud);
+}
+.logo-span-footer{
+
+    color: var(--color-cloud);
+}
+/* ========== /Page-footer=========*/
+
+/*========== Portfolio======*/
+
+.filters-button {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--color-iris);
+background-color: var(--color-cloud);
+cursor: pointer;
+}
+ .filters-button:hover, .filters-button:focus {
+color: var(--color-white);
+background-color: var(--color-ocean);
+}
+.gallery-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color-navy-blue);
+}
+.text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color-slate);
+}
+/*========== Portfolio======*/
