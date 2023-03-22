@@ -188,6 +188,7 @@ overflow: hidden;
 }
 .team-solutions {
     width: 264px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .name-decisions {
 font-weight: 500;
@@ -215,7 +216,6 @@ flex-basis: calc((100% - 48px) / 3);
 }
 .our-solutions {
     padding-bottom: 120px;
-    flex-basis: calc((100% - 72px) / 4);
 }
 .work-options {
 font-weight: 500;
