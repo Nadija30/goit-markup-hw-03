@@ -240,8 +240,8 @@ margin-bottom: 72px;
 background-color: var(--color-cloud);
 }
 .team-description-content {
-  padding-top: 32px;  
-  padding-bottom: 32px;
+padding-top: 32px;  
+padding-bottom: 32px;
 }
 
 .team {
@@ -281,9 +281,11 @@ padding-bottom: 100px;
 }
 
 .footer-logo {
+    display: block;
     margin-bottom: 16px;
 }
 .goal {
+font-weight: 400;
 font-size: 16px; 
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -326,11 +328,13 @@ overflow: hidden;
 }
 .gallery {
 flex-basis: calc((100% - 144px) / 9);
-border-bottom: 1px solid #E7E9FC;
 }
 .gallery-content {
+padding-left: 16px; 
+padding-right: auto;   
 padding-top: 32px;
 padding-bottom: 32px;
+border: 1px solid #E7E9FC;
 }
 .filters-button {
 font-family: "Roboto", sans-serif;
@@ -340,6 +344,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--color-iris);
 background-color: var(--color-cloud);
+border: 1px solid #E7E9FC;
 }
  .filters-button:hover, .filters-button:focus {
 color: var(--color-white);
