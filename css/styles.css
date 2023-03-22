@@ -322,10 +322,11 @@ overflow: hidden;
 .gallery-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
 }
 .gallery {
 flex-basis: calc((100% - 144px) / 9);
+border-bottom: 1px solid #E7E9FC;
 }
 .gallery-content {
 padding-top: 32px;
