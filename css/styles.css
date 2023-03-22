@@ -169,6 +169,11 @@ background-color: #404BBF;
 /* ========== /Hero =========*/
 
 /* ========== Solutions =========*/
+.solutions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 .effective-solutions {
 position: absolute;
 width: 1px;
@@ -200,6 +205,11 @@ letter-spacing: 0.02em;
 /* ========== /Solutions =========*/
 
 /* ========== Our-solutions =========*/
+.our-solutions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 .photos-works {
 flex-basis: calc((100% - 48px) / 3);
 }
@@ -221,7 +231,7 @@ margin-bottom: 72px;
 /* ========== /Our-solutions =========*/
 
 /* ========== Our-team =========*/
-.list {
+.our-team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -269,11 +279,16 @@ background-color: #2e2f42;
 padding-top: 100px;
 padding-bottom: 100px;
 }
+
+.footer-logo {
+    margin-bottom: 16px;
+}
 .goal {
 font-size: 16px; 
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-cloud);
+width: 264px;
 }
 .logo-span-footer{
 
@@ -282,11 +297,40 @@ color: var(--color-cloud);
 /* ========== /Page-footer=========*/
 
 /*========== Portfolio======*/
-.filters {
-    margin-top: 93px;
-    margin-bottom: 75px;
+.cards {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
-
+.cards-title {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+.filters {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 75px;
+    justify-content: center;
+}
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.gallery {
+flex-basis: calc((100% - 144px) / 9);
+}
+.gallery-content {
+padding-top: 32px;
+padding-bottom: 32px;
+}
 .filters-button {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -306,6 +350,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--title-color-navy-blue);
+margin-bottom: 8px;
 }
 .text {
 font-size: 16px;
